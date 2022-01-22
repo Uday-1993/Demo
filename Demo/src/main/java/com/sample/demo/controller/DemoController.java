@@ -12,10 +12,4 @@ public class DemoController {
 		return "Up....!";
 	}
 	
-	@GetMapping(value = "/hello")
-	public String hello() 
-	{
-		return "hello....!";
-	}
-
 }
